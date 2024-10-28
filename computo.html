@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Perfil Criminal</title>
+    <link rel="stylesheet" href="estilos4.css" >
+</head>
+<body>
+    <header>
+        <h1>Zodiaco del Asesino</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="infames.html">Infames</a></li>
+                <li><a href="psicologia.html">Psicología Criminal</a></li>
+                <li><a href="computo.html">Calculadora Criminal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="calculadora">
+            <h2>Calculadora de Perfil Criminal</h2>
+            <p>Responde las preguntas y descubre la probabilidad de un perfil criminal según ciertas tendencias psicológicas.</p>
+
+            <form id="perfilForm">
+                <label for="impulsividad">Nivel de impulsividad (1-10):</label>
+                <input type="number" id="impulsividad" name="impulsividad" min="1" max="10" required>
+
+                <label for="agresividad">Nivel de agresividad (1-10):</label>
+                <input type="number" id="agresividad" name="agresividad" min="1" max="10" required>
+
+                <label for="manipulacion">Nivel de manipulación (1-10):</label>
+                <input type="number" id="manipulacion" name="manipulacion" min="1" max="10" required>
+
+                <label for="control">Necesidad de control (1-10):</label>
+                <input type="number" id="control" name="control" min="1" max="10" required>
+
+                <button type="button" onclick="calcularPerfil()">Calcular</button>
+            </form>
+
+            <div id="resultado" class="resultado">
+                <p>El resultado aparecerá aquí.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Zodiaco del Asesino. Veneco carechimba.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

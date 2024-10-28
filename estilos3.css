@@ -1,0 +1,83 @@
+body {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ccc; /* Texto gris claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #ff0000; /* Rojo sangriento */
+    text-shadow: 2px 2px 5px #660000; /* Sombra oscura */
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+
+main {
+    padding: 20px;
+}
+
+
+h2 {
+    color: #ff0000; /* Rojo para el encabezado */
+    text-align: center;
+    font-size: 26px;
+}
+
+h3{
+    color: red;
+    text-shadow: none;
+}
+.asesino {
+    margin-bottom: 40px; /* Espacio entre artículos de asesinos */
+    padding: 15px;
+    background-color: #222; /* Fondo oscuro para cada artículo */
+    border-radius: 5px;
+}
+
+.imagen-infame {
+    text-align: center; /* Centra la imagen */
+    margin: 15px 0; /* Espacio alrededor de la imagen */
+}
+
+.imagen-infame img {
+    max-width: 70%; /* Asegura que la imagen no se desborde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+footer {
+    background-color: #333; /* Fondo del pie de página */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

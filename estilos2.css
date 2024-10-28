@@ -1,0 +1,100 @@
+body {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ccc; /* Texto gris claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #ff0000; /* Rojo sangriento */
+    text-shadow: 2px 2px 5px #660000; /* Sombra oscura */
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+
+
+main {
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #ff0000; /* Rojo para los encabezados */
+    text-align: center;
+    font-size: Comic Sans Ms;
+}
+
+.imagen-psicologia {
+    text-align: center; /* Centra la imagen */
+    margin: 20px 0; /* Espacio alrededor de la imagen */
+}
+
+.imagen-psicologia img {
+    max-width: 40%; /* Asegura que la imagen no se desborde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Eliminar espacios entre celdas */
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #0a3a38; /* Bordes de las celdas */
+    text-align: left;
+}
+
+th {
+    background-color: #0a3a38; /* Fondo oscuro para encabezados */
+    color: red; /* Texto claro para encabezados */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #222; /* Fondo oscuro para filas pares */
+}
+
+section {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #222; /* Fondo oscuro para secciones */
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333; /* Fondo del pie de página */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
